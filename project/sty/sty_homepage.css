@@ -1,0 +1,159 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  body{
+    margin:0;
+    padding: 0;
+  }
+  
+  .top{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 110px;
+  }
+  
+  .top .logo{
+    margin-left: 30px;
+  }
+  
+  .top #search{
+    width: 360px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    align-content: center;
+    margin-left: 30px;
+    padding-right: 60px;
+    border-radius: 15px;
+    font-size: 14px;
+    padding-inline-start: 52px;
+    padding-inline-end: 10px;
+    padding-right: 30px;
+    margin-right: 40px;
+  }
+  
+  .s-box .s-icon{
+    width: 24px;
+    opacity: .9;
+    position: absolute;
+    top: 40px;
+    margin-left: 45px;
+  }
+  
+  .top ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20;
+    margin-right: 20px;
+    padding-right: 20px;
+  }
+  
+  .top ul li{
+    display: block;
+    list-style-type: none;
+    margin-right:10px ;
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  .top ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .top ul li a i{
+    color: white;
+  }
+  
+  .top ul li .a_tool{
+    margin: 0 10px;
+  }
+  
+
+
+.top_bar ul{
+    list-style: none;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+}
+.top_bar li{
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-right: 60px;
+}
+.top_bar a{
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+    border-bottom: none;
+    transition: .4s;
+    color: black;
+}
+.top_bar a:hover{
+    background-color: gainsboro;
+}
+.top_bar li li{
+    font-size: .7em;
+}
+.top_bar li ul{
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+.top_bar li:hover ul{
+    display: block;
+}
+.top_bar>ul>li{
+    text-align: center;
+}
+.top_bar>ul>li>a{
+    padding: 0;
+}
+.top_bar li ul li{
+    display: block;
+}
+.produce{
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+}
+.a_produce{
+    width: 20%;
+    margin: 50px 0px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.a_produce>.info{
+    width: 175px;
+    background: wheat;
+    margin: auto;
+    padding: 15px;
+    border-radius: 30px;
+}
+.a_produce>.name{
+    font-size: 1.2em;
+}
+.a_produce>.price{
+    font-size: 1.2em;
+    color: red;
+    font-weight: bold;
+}
+.a_produce div a{
+    color: #fff;
+}

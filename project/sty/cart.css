@@ -1,0 +1,625 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+
+  body{
+    margin:0;
+    padding: 0;
+  }
+  
+  .top{
+    text-align: center;
+    background-color: black;
+  }
+  
+  .top .logo{
+    text-align: center; 
+  }
+  
+  .top #search{
+    text-align: center;
+    border-radius: 10px;
+    padding-inline-end: 30px;
+    padding-inline-start: 30px;
+  }
+  
+  .s-box .s-icon{
+    width: 20px;
+    position: absolute;
+    margin: 5px 4px 4px 4px;
+  
+  }
+  
+  .top ul{
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin-top: 8px;
+  }
+  
+  .top ul li{
+    margin: 0 5px;
+    color: white;
+  }
+  
+  .top ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  .name_bar ul{
+    list-style: none;
+    /* background-color: whitesmoke; */
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+  
+  }
+  .name_bar ul li{
+    line-height: 50px;
+    display: inline-block;
+    margin-top: 4px;
+    padding: 0;
+  }
+  .name_bar a{
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+    border-bottom: none;
+    transition: .4s;
+    color: black;
+  }
+  .name_bar a:hover{
+    background-color: gainsboro;
+  }
+  .name_bar li li{
+    font-size: .7em;
+  }
+  .name_bar li ul{
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+  .name_bar li:hover ul{
+    display: block;
+  }
+  .name_bar>ul>li{
+    text-align: center;
+  }
+  .name_bar>ul>li>a{
+    padding: 0;
+  }
+  .name_bar li ul li{
+    display: block;
+  }
+  /* ______________ */
+  .top_bar ul{
+    list-style: none;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+  }
+  .top_bar li{
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em;
+    display:block;
+    margin: auto;
+  }
+  .top_bar a{
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+    border-bottom: none;
+    transition: .4s;
+    color: black;
+  }
+  .top_bar a:hover{
+    background-color: gainsboro;  
+  }
+  .top_bar li li{
+    font-size: .7em;
+  }
+  .top_bar li ul{
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+  .top_bar li:hover ul{
+    display: block;
+  }
+  .top_bar>ul>li{
+    text-align: center;
+  }
+  .top_bar>ul>li>a{
+    padding: 0;
+  }
+  .top_bar li ul li{
+    display: block;
+  }
+  
+  
+  
+  @media screen and (min-width:740px) {
+  .top{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: black;
+  }
+  
+  .top #search{
+    width: 300px;
+    height: 42px;
+    margin-top: 30px;
+    border-radius: 15px;
+  }
+  
+  .s-box .s-icon{
+    width: 24px;
+    opacity: .9;
+    position: absolute;
+    top: 33px;
+    margin-left: 5px;
+  }
+  
+  .top ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20;
+    margin-right: 20px;
+    padding-right: 20px;
+  }
+  
+  .top_bar ul{
+    list-style: none;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 0;
+  }
+  .top_bar li{
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em;
+    display: inline-block;
+    margin: auto;
+  }
+  .top_bar a{
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+    border-bottom: none;
+    transition: .4s;
+    color: black;
+  }
+  .top_bar a:hover{
+    background-color: gainsboro;
+  }
+  .top_bar li li{
+    font-size: .7em;
+  }
+  .top_bar li ul{
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+  .top_bar li:hover ul{
+    display: block;
+  }
+  .top_bar>ul>li{
+    text-align: center;
+  }
+  .top_bar>ul>li>a{
+    padding: 0;
+  }
+  .top_bar li ul li{
+    display: block;
+  }
+
+  /*--- button for mobild < 740 ---*/
+  button {
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+    height: 45px;
+    width: 150px;
+    margin: 10px 7px;
+    padding: 5px 5px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #383736;
+    border: 2px #383736 solid;
+    border-radius: 4px;
+    text-transform: uppercase;
+    outline: 0;
+    overflow:hidden;
+    background: none;
+    z-index: 1;
+    cursor: pointer;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+  }
+/*-- css Button Delect --*/
+  .slide:after{
+    content:"Delete";
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    text-align:center;
+    -webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+
+  .slide:before {
+    content:"Delete →";
+    height:100%;
+    width:100%;
+    position:absolute;
+    color:#860e14;
+    left:-100%;
+    opacity: 0;
+    -webkit-transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+  
+  .slide:hover{
+    background:#c4252d;
+  }
+  
+  
+  .slide:hover:before{
+    left:0;
+    opacity:1;
+    color:#fff;
+  }
+  .slide:hover:after{
+    left:100%;
+    opacity:0;
+  }
+
+  /*-- css Button เลือกซื้อสินค้าต่อ --*/
+  .slide1:after{
+    content:"เลือกซื้อสินค้าต่อ";
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    text-align:center;
+    -webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+
+  .slide1:before {
+    content:"Shop →";
+    height:100%;
+    width:100%;
+    position:absolute;
+    color:#383736;
+    left:-100%;
+    opacity: 0;
+    -webkit-transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+
+  .slide1:hover{
+    background:#383736;
+  }
+  
+  
+  .slide1:hover:before{
+    left:0;
+    opacity:1;
+    color:#fff;
+  }
+  .slide1:hover:after{
+    left:100%;
+    opacity:0;
+  }
+  
+  /*-- css ของ order --*/
+
+  .order:after{
+    content:"Order";
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    text-align:center;
+    -webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+
+  .order:before {
+    content:"Order →";
+    height:100%;
+    width:100%;
+    position:absolute;
+    color:#383736;
+    left:-100%;
+    opacity: 0;
+    -webkit-transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+  
+  .order:hover{
+    background:#2518cf;
+  }
+  
+  .order:hover:before{
+    left:0;
+    opacity:1;
+    color:#fff;
+  }
+  .order:hover:after{
+    left:100%;
+    opacity:0;
+  }
+  
+  
+  }
+  
+  @media screen and (min-width:1280px) {
+  
+  .top{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  }
+  
+  .top .logo{
+  margin-left: 30px;
+  }
+  
+  .top #search{
+  height: 42px;
+  margin-top: 30px;
+  padding-right: 0px;
+  border-radius: 15px;
+  font-size: 14px;
+  padding-inline-start: 30px;
+  padding-inline-end: 10px;
+  margin-right: 40px;
+  
+  }
+  
+  .s-box .s-icon{
+  width: 24px;
+  opacity: .9;
+  position: absolute;
+  top: 35px;
+  margin-left: 10px;
+  border-right: 0.3px solid gray;
+  padding-right: 2px;
+  
+  }
+  
+  .top ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20;
+  margin-right: 20px;
+  padding-right: 20px;
+  }
+  
+  .top ul li{
+  display: block;
+  list-style-type: none;
+  margin-right:10px ;
+  padding-right: 20px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  }
+  
+  .top ul li a{
+  text-decoration: none;
+  color: white;
+  }
+  
+  .top ul li a i{
+  color: white;
+  }
+  
+  .top ul li .a_tool{
+  margin: 0 10px;
+  }
+  
+  .top_bar ul{
+    list-style: none;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+  }
+  .top_bar li{
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em;
+    display: inline-block;
+    /* margin-right: 60px; */
+  }
+  .top_bar a{
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+    border-bottom: none;
+    transition: .4s;
+    color: black;
+  }
+  .top_bar a:hover{
+    background-color: gainsboro;
+  }
+  .top_bar li li{
+    font-size: .7em;
+  }
+  .top_bar li ul{
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+  .top_bar li:hover ul{
+    display: block;
+  }
+  .top_bar>ul>li{
+    text-align: center;
+  }
+  .top_bar>ul>li>a{
+    padding: 0;
+  }
+  .top_bar li ul li{
+    display: block;
+  }
+  
+  /*-- css Button  --*/
+  /*---  ถ้าใครอ่านมาเจอแก้ไม่ให้มันมีเส้นใต้ให้หน่อย จะขอบคุณมากงับ ---*/
+  button {
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+    height: 45px;
+    width: 150px;
+    margin: 10px 7px;
+    padding: 5px 5px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #383736;
+    border: 2px #383736 solid;
+    border-radius: 4px;
+    text-transform: uppercase;
+    outline: 0;
+    overflow:hidden;
+    background: none;
+    z-index: 1;
+    cursor: pointer;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+  }
+/*-- css Button Delect --*/
+  .slide:after{
+    content:"Delete";
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    text-align:center;
+    -webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+
+  .slide:before {
+    content:"Delete →";
+    height:100%;
+    width:100%;
+    position:absolute;
+    color:#860e14;
+    left:-100%;
+    opacity: 0;
+    -webkit-transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+  
+  .slide:hover{
+    background:#c4252d;
+  }
+  
+  
+  .slide:hover:before{
+    left:0;
+    opacity:1;
+    color:#fff;
+  }
+  .slide:hover:after{
+    left:100%;
+    opacity:0;
+  }
+
+  /*-- css Button เลือกซื้อสินค้าต่อ --*/
+  .slide1:after{
+    content:"เลือกซื้อสินค้าต่อ";
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    text-align:center;
+    -webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+
+  .slide1:before {
+    content:"Shop →";
+    height:100%;
+    width:100%;
+    position:absolute;
+    color:#383736;
+    left:-100%;
+    opacity: 0;
+    -webkit-transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+
+  .slide1:hover{
+    background:#383736;
+  }
+  
+  
+  .slide1:hover:before{
+    left:0;
+    opacity:1;
+    color:#fff;
+  }
+  .slide1:hover:after{
+    left:100%;
+    opacity:0;
+  }
+  
+  
+  /*-- css ของ order --*/
+
+  .order:after{
+    content:"Order";
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    text-align:center;
+    -webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+
+  .order:before {
+    content:"Order →";
+    height:100%;
+    width:100%;
+    position:absolute;
+    color:#383736;
+    left:-100%;
+    opacity: 0;
+    -webkit-transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+  }
+  
+  .order:hover{
+    background:#2518cf;
+  }
+  
+  .order:hover:before{
+    left:0;
+    opacity:1;
+    color:#fff;
+  }
+  .order:hover:after{
+    left:100%;
+    opacity:0;
+  }
+  
+
+  
+  }

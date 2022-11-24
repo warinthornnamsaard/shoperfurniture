@@ -1,0 +1,32 @@
+
+  .grop{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 5px 20px;
+    margin: 0px 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .grop a{
+    font-weight:bolder;
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  .grop a:hover{
+    text-decoration: underline;
+  }
+  
+  .grop a~a{
+    margin-left: 10px;
+  }
+  
+  .show{
+    margin: 20px;
+    text-align: center;
+  }
+
+  

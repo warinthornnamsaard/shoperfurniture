@@ -1,0 +1,71 @@
+[
+    {   
+        "disid" : 1,
+        "namedis": "Big C Wongsawang",
+        "address": "888 ถนน พิบูลสงคราม แขวง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800",
+        "time": "7.00-21.00",
+        "position":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.2045465636484!2d100.52595611483129!3d13.826752690298992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29b7ff3a0f4b5%3A0xac44e6edffc60b30!2z4Lia4Li04LmK4LiB4LiL4Li1IOC4oeC4suC4o-C5jOC5gOC4geC5h-C4leC5gOC4nuC4peC4qiDguKfguIfguKjguYzguKrguKfguYjguLLguIc!5e0!3m2!1sth!2sth!4v1668586997502!5m2!1sth!2sth"
+    },
+    {
+        "disid" : 2,
+        "namedis": "The Mall Thapra Thonburi",
+        "address": "129 ถนน รัชดาภิเษก แขวง บุคคโล เขตธนบุรี กรุงเทพมหานคร 10600",
+        "time": "9.00-17.00",
+        "position": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495993.62130556087!2d100.16707211579661!3d13.781877680272716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29860a45abbaf%3A0xfd31102a18e45fab!2z4LmA4LiU4Lit4Liw4Lih4Lit4Lil4Lil4LmM4LmE4Lil4Lif4LmM4Liq4LmC4LiV4Lij4LmMIOC4l-C5iOC4suC4nuC4o-C4sA!5e0!3m2!1sth!2sth!4v1668589014133!5m2!1sth!2sth"
+    },
+    {
+        "disid" : 3,
+        "namedis": "Vogue Krabi",
+        "address": "76 1 ถนน มหาราช ตำบล ปากน้ำ อำเภอเมืองกระบี่ กระบี่ 81000",
+        "time": "10.00-20.00",
+        "position": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3641131569943!2d98.91327791472767!3d8.064292394193586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3051949a25cfab15%3A0x6434dc48b89202eb!2sVogue%20Shopping%20Center!5e0!3m2!1sth!2sth!4v1668589582322!5m2!1sth!2sth"
+    },
+    {   "disid" : 4,
+        "namedis": "Robinson Chachoengsao",
+        "address": "910 หมู่ที่ 4 ถนน บางปะกง - ฉะเชิงเทรา ตำบล โสธร อำเภอเมืองฉะเชิงเทรา ฉะเชิงเทรา 24000",
+        "time": "10.00-22.00",
+        "position": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15507.335467552954!2d101.03976002536429!3d13.667863946427824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d15f56a407c23%3A0x67d2ffc8cfeb4d55!2z4LmC4Lij4Lia4Li04LiZ4Liq4Lix4LiZIOC5hOC4peC4n-C5jOC4quC5hOC4leC4peC5jCDguInguLDguYDguIrguLTguIfguYDguJfguKPguLI!5e0!3m2!1sth!2sth!4v1668589719287!5m2!1sth!2sth"
+    },
+    {
+        "disid" : 5,
+        "namedis": "Central Pattaya",
+        "address": "333 102 หมู่ที่ 9 เมืองพัทยา อำเภอบางละมุง ชลบุรี 20150",
+        "time": "11.00-20.00",
+        "position": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15554.358441225659!2d100.87543212522912!3d12.934077454086898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31029605ee332697%3A0xdb517308033b503!2z4LmA4LiL4LmH4LiZ4LiX4Lij4Lix4Lil4Lie4Lix4LiX4Lii4Liy!5e0!3m2!1sth!2sth!4v1668590108937!5m2!1sth!2sth"
+    },
+    {   
+        "disid" : 6,
+        "namedis": "Central Rayong",
+        "address": "99, 99/1 ถนนบางนา-ตรา, ตำบลเชิงเนิน อำเภอเมืองระยอง ระยอง 21000",
+        "time": "10.00-21.00",
+        "position": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15569.060270787948!2d101.2595734251869!3d12.69611465659151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fc6416c1d15d%3A0x91e77d7fd0c93756!2z4LmA4LiL4LmH4LiZ4LiX4Lij4Lix4LilIOC4o-C4sOC4ouC4reC4hw!5e0!3m2!1sth!2sth!4v1668590170406!5m2!1sth!2sth"
+    },
+    {   
+        "disid" : 7,
+        "namedis": "Robinson Chiangmai",
+        "address": "2 ถนน มหิดล ตำบลป่าแดด อำเภอเมืองเชียงใหม่ เชียงใหม่ 50100",
+        "time": "10.00-21.00",
+        "position": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15110.624186879719!2d98.96748922650463!3d18.768894496236058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3064d0053829%3A0xdd06d0c873572571!2z4LmC4Lij4Lia4Li04LiZ4Liq4Lix4LiZIOC5gOC4iuC4teC4ouC4h-C5g-C4q-C4oeC5iA!5e0!3m2!1sth!2sth!4v1668590339318!5m2!1sth!2sth"
+    },
+    {   
+        "disid" : 8,
+        "namedis": "Lotus Buengkan",
+        "address": "หมู่ที่ 1 461 ถ. ชยางกูร ตำบล วิศิษฐ์ อำเภอเมืองบึงกาฬ บึงกาฬ 38000",
+        "time": "8.00-21.00",
+        "position": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786.748209149177!2d103.6466074!3d18.358767999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313ad67d662afd4b%3A0xe05e6b842cbc502b!2z4LmC4Lil4LiV4Lix4LiqIOC4muC4tuC4h-C4geC4suC4rA!5e0!3m2!1sth!2sth!4v1668590392646!5m2!1sth!2sth"
+    },   
+    {   
+        "disid" : 9,
+        "namedis": "Robinson Ratchaburi",
+        "address": "265 ถนน ศรีสุริยวงศ์ ตำบล หน้าเมือง อำเภอเมืองราชบุรี ราชบุรี 70000",
+        "time": "10.00-21.00",
+        "position": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15516.09154533215!2d99.80301142533915!3d13.53418694781574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e32f556ef65e11%3A0xe3a4f991e7011fc5!2z4LmC4Lij4Lia4Li04LiZ4Liq4Lix4LiZIOC5hOC4peC4n-C5jOC4quC5hOC4leC4peC5jCDguKPguLLguIrguJrguLjguKPguLU!5e0!3m2!1sth!2sth!4v1668590459734!5m2!1sth!2sth"
+    },   
+    {   
+        "disid" : 10,
+        "namedis": "Robinson Buriram",
+        "address": "125 ม.6 ถนน บุรีรัมย์ - นางรอง ตำบล อิสาณ อำเภอเมืองบุรีรัมย์ บุรีรัมย์ 31000",
+        "time": "10.00-20.00",
+        "position": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15417.406974130641!2d103.0554137256228!3d14.973167133055565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3119968c2b0779d7%3A0x6b48a2bd3342037d!2z4LmC4Lij4Lia4Li04LiZ4Liq4Lix4LiZIOC5hOC4peC4n-C5jOC4quC5hOC4leC4peC5jCDguJrguLjguKPguLXguKPguLHguKHguKLguYw!5e0!3m2!1sth!2sth!4v1668588875869!5m2!1sth!2sth"
+    }      
+]
